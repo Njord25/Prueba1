@@ -1,0 +1,92 @@
+body {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0018b6+0,fcfcfc+25,ff0101+48,fcfcfc+75,0018b6+100 */
+  background: #0018b6; /* Old browsers */
+  background: -webkit-linear-gradient(#0018b6 0%, #fcfcfc 25%, #ff0101 48%, #fcfcfc 75%, #0018b6 100%);
+  background: -o-linear-gradient(#0018b6 0%, #fcfcfc 25%, #ff0101 48%, #fcfcfc 75%, #0018b6 100%);
+  background: linear-gradient(#0018b6 0%, #fcfcfc 25%, #ff0101 48%, #fcfcfc 75%, #0018b6 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0018b6', endColorstr='#0018b6',GradientType=0 ); /* IE6-9 */
+  background-repeat: no-repeat;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+ul {
+	list-style: none;
+	overflow: hidden;
+	padding: 0
+
+}
+
+li {
+	width: 20%;
+	height: 200px;
+	background-color: $primary-gray;
+	border: 1px solid $primary-black;
+	box-sizing: border-box;
+	float: left;
+}
+
+h1 {
+  font-family: 'boulevard_saint_denis_lightBd';
+  font-size: 5em;
+  color: $primary-blue-navy;
+}
+
+.trasition {
+  width: 200px;
+  height: 200px;
+  background: $primary-blue-navy-light;
+  -webkit-transition: background-color 3s ease-out;
+  -moz-transition: background-color 3s ease-out;
+  -o-transition: background-color 3s ease-out;
+  transition: background-color 3s ease-out;
+}
+
+.trasition:hover {
+  background-color: $primary-red-light;
+  cursor: pointer;
+}
+
+.box {
+  background: $primary-blue-navy-light;
+  transform: translateX(1);
+  transition: transform 3s linear;
+  -webkit-transform: translateZ (50px);
+  -moz-transform: translateZ (50px);
+  -o-transform: translateZ (50px);
+}
+
+.box:hover {
+  transform: translateX(2em);
+  background-color: $primary-red-light;
+}
+
+.box_rotar {
+  background: $primary-blue-navy-light;
+  transform: rotate(0);
+  transition: transform 3s ease-in;
+}
+
+.box_rotar:hover {
+    background-color: $primary-red-light;
+    transform: rotate(360deg); /* Standard syntax */
+}
+
+
+.box_scale {
+  background: $primary-blue-navy-light;
+  transform: scale(1, 1);
+  transition: transform 2s ease-out;
+}
+
+
+.box_scale:hover {
+  background-color: $primary-red-light;
+  transform: scale(1.5, 1.5);
+}

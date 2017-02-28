@@ -1,0 +1,19 @@
+@import "partials/_variables";
+@import "partials/_clases";
+@font-face {
+  font-family:'boulevard_saint_denis_lightBd';
+  src: url('../font/boulevard_saint_denis_light-webfont.woff2') format('woff2'),
+       url('../boulevard_saint_denis_light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'boulevard_saint_denisbold';
+  src: url('..font/boulevard_saint_denis-webfont.woff2') format('woff2'),
+       url('..font/boulevard_saint_denis-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}

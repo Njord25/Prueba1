@@ -1,0 +1,57 @@
+/*
+Error: File to import not found or unreadable: partials_variables.
+       Load path: C:/Users/jordannjord/Desktop/Class_CSS3_2/sass
+        on line 1 of sass/style.scss
+
+1: @import"partials_variables";
+2: @import"partials_clases";
+3: 
+4: @font-face {
+5:   font-family: 'boulevard_saint_denis_lightBd';
+6:   src: url('../font/boulevard_saint_denis_light-webfont.woff2') format('woff2'),
+
+Backtrace:
+sass/style.scss:1
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/import_node.rb:67:in `rescue in import'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/import_node.rb:45:in `import'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/import_node.rb:28:in `imported_file'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/import_node.rb:37:in `css_import?'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:313:in `visit_import'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:159:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:331:in `block in watch'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: partials_variables.\A        Load path: C:/Users/jordannjord/Desktop/Class_CSS3_2/sass\A         on line 1 of sass/style.scss\A \A 1: @import\"partials_variables\";\A 2: @import\"partials_clases\";\A 3: \A 4: @font-face {\A 5:   font-family: 'boulevard_saint_denis_lightBd';\A 6:   src: url('../font/boulevard_saint_denis_light-webfont.woff2') format('woff2'),"; }
