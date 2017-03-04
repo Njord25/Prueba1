@@ -1,0 +1,102 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Bills App</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<main>
+		<section>
+			<h1>Add Bills</h1>
+			<form id="dataForm" name="dataForm">
+
+				<div>
+					<label for="firstname">Name</label>
+					<input id="firstname" name="firstname" type="text" placeholder="Bill name" required></input>
+					<label for="date">Date</label>
+					<input id="date" name="date" type="date" required></input>
+				</div>
+
+				<div>
+					<label for="amount">Amount</label>
+					<input id="amount" name="amount" type="number" placeholder="Bill amount" required></input>
+					<label for="type">Type</label>
+					<input list="type" name="type">
+  					<datalist id="type">
+    					<option value="A">
+    					<option value="B">
+    					<option value="C">
+  					</datalist>
+  				</input>
+				</div>
+
+				<div>
+					<button type="reset">Cancel</button>
+					<button type="submit" class="push">Save</button>
+				</div>
+			</form>
+
+
+		</section>
+		<section class="add">
+			<h1>All Bills</h1>
+
+			<div class="filter">
+				<button id="nameOrder">Name</button>
+				<button id="amountOrder">Amount</button>
+				<button id="typeOrder">Type</button>
+			</div>
+
+			<div>
+				<ul id="list"></ul>
+			</div>
+
+		</section>
+
+		<section>
+			<table id="table">
+				<thead>
+					<tr>
+						<th>Bills A: </th>
+						<td>
+							<input
+							type = "number"
+							name = "billsA"
+							id = "billsA"
+							disabled="0"
+							class="td">
+							</input>
+						</td>
+					</tr>
+					<tr>
+						<th>Bills B: </th>
+						<td>
+							<input
+							type = "number"
+							name = "billsB"
+							id = "billsB"
+							disabled="0"
+							class="td">
+							</input>
+						</td>
+					</tr>
+					<tr>
+						<th>Bills C: </th>
+						<td>
+							<input
+							type = "number"
+							name = "billsC"
+							id = "billsC"
+							disabled="0"
+							class="td">
+							</input>
+						</td>
+					</tr>
+				</thead>
+			</table>
+		</section>
+	</main>
+	<script src="js/main.js"></script>
+</body>
+</html>
