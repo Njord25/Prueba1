@@ -1,0 +1,76 @@
+// Hero image
+
+.hero-box {
+  position: relative;
+}
+
+.hero {
+  width: 100%;
+}
+
+.hero-title {
+  position: absolute;
+  z-index: 2;
+  transform: translate(-50%);
+  top: 36%;
+  left: 50%;
+}
+
+.hero-signature {
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+}
+
+//Sections
+
+.section-description {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20% 50px 0;
+  color: #fff;
+}
+
+.floating-title {
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 75px;
+  background-color: #000;
+  color: #fff;
+  padding: 25px 35px;
+}
+
+// Photo modules
+
+.photo-description {
+  padding: 80px 0;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.description-text {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+//Sliders
+
+.slider {
+  position: relative;
+}
+
+// Elementos
+
+.reservations {
+  margin-bottom: 20px;
+
+  span {
+    display: block;
+  }
+}
+
+.info span {
+  margin-left: 10px;
+}
